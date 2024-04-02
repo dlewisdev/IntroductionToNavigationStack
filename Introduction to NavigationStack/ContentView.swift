@@ -14,14 +14,16 @@ struct ContentView: View {
             List {
                 
                 ForEach(foods) { food in
-                    NavigationLink(food.title, value: food.price)
+                    NavigationLink(value: food) {
+                        FoodItemView(food: food)
+                    }
                 }
             }
             .listStyle(.insetGrouped)
             .navigationTitle("Menu")
             // for: type in navigationDestination must match Type of the NavigationLink value:
-            .navigationDestination(for: Decimal.self) { foodPrice in
-                Text(foodPrice, format: .currency(code: "USD"))
+            .navigationDestination(for: Food.self) { item in
+                FoodDetailView(food: item)
             }
         }
     }
