@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		71D8E9B22BBC7F7F0070E425 /* DrinkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D8E9B12BBC7F7F0070E425 /* DrinkDetailView.swift */; };
+		71D8E9B42BBC86110070E425 /* DessertDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D8E9B32BBC86110070E425 /* DessertDetailView.swift */; };
 		E75159A6298D680800CDEC3E /* Introduction_to_NavigationStackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75159A5298D680800CDEC3E /* Introduction_to_NavigationStackApp.swift */; };
 		E75159A8298D680800CDEC3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75159A7298D680800CDEC3E /* ContentView.swift */; };
 		E75159AA298D680A00CDEC3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75159A9298D680A00CDEC3E /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		71D8E9B12BBC7F7F0070E425 /* DrinkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailView.swift; sourceTree = "<group>"; };
+		71D8E9B32BBC86110070E425 /* DessertDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailView.swift; sourceTree = "<group>"; };
 		E75159A2298D680800CDEC3E /* Introduction to NavigationStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Introduction to NavigationStack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75159A5298D680800CDEC3E /* Introduction_to_NavigationStackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Introduction_to_NavigationStackApp.swift; sourceTree = "<group>"; };
 		E75159A7298D680800CDEC3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 				E784B5F5298D6EC800558357 /* FoodDetailView.swift */,
 				E784B5F3298D6E2700558357 /* MenuItemView.swift */,
 				71D8E9B12BBC7F7F0070E425 /* DrinkDetailView.swift */,
+				71D8E9B32BBC86110070E425 /* DessertDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			files = (
 				E75159A8298D680800CDEC3E /* ContentView.swift in Sources */,
 				E75159A6298D680800CDEC3E /* Introduction_to_NavigationStackApp.swift in Sources */,
+				71D8E9B42BBC86110070E425 /* DessertDetailView.swift in Sources */,
 				E784B5F2298D691B00558357 /* Food.swift in Sources */,
 				E784B5F4298D6E2700558357 /* MenuItemView.swift in Sources */,
 				71D8E9B22BBC7F7F0070E425 /* DrinkDetailView.swift in Sources */,
