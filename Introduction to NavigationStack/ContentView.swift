@@ -12,10 +12,19 @@ struct ContentView: View {
         NavigationStack {
             
             List {
+                Section("Foods") {
+                    ForEach(foods) { food in
+                        NavigationLink(value: food) {
+                            MenuItemView(food: food)
+                        }
+                    }
+                }
                 
-                ForEach(foods) { food in
-                    NavigationLink(value: food) {
-                        FoodItemView(food: food)
+                Section("Drinks") {
+                    ForEach(drinks) { drink in
+                        NavigationLink(value: drink) {
+                            MenuItemView(food: drink)
+                        }
                     }
                 }
             }
