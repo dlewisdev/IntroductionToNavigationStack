@@ -35,15 +35,12 @@ struct ContentView: View {
                 FoodDetailView(food: item)
             }
             .navigationDestination(for: Drink.self) { item in
-                Text(item.name)
-                    .font(.largeTitle)
+                DrinkDetailView(drink: item)
             }
         }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+#Preview {
+    ContentView()
 }
