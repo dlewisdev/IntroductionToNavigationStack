@@ -7,7 +7,14 @@
 
 import Foundation
 
-struct Food: Identifiable, Hashable {
+protocol MenuItem {
+    var name: String { get }
+    var title: String { get }
+    var description: String { get }
+    var price: Decimal { get }
+}
+
+struct Food: MenuItem, Identifiable, Hashable {
     var id: String { "\(name)_\(title)" }
     let name: String
     let title: String
@@ -46,7 +53,7 @@ let foods: [Food] = [
          price: 12.99)
 ]
 
-struct Drink: Identifiable, Hashable {
+struct Drink: MenuItem, Identifiable, Hashable {
     var id: String { "\(name)_\(title)" }
     let name: String
     let title: String
