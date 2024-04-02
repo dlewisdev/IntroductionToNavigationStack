@@ -15,7 +15,7 @@ struct ContentView: View {
                 Section("Foods") {
                     ForEach(foods) { food in
                         NavigationLink(value: food) {
-                            MenuItemView(food: food)
+                            MenuItemView(item: food)
                         }
                     }
                 }
@@ -23,7 +23,7 @@ struct ContentView: View {
                 Section("Drinks") {
                     ForEach(drinks) { drink in
                         NavigationLink(value: drink) {
-                            MenuItemView(food: drink)
+                            MenuItemView(item: drink)
                         }
                     }
                 }

@@ -9,21 +9,21 @@ import SwiftUI
 
 struct MenuItemView: View {
     
-    let food: MenuItem
+    let item: MenuItem
     
     var body: some View {
         LabeledContent {
-            Text(food.price,
+            Text(item.price,
                  format: .currency(code: Locale.current.currency?.identifier ?? ""))
         } label: {
-            Text("\(food.name) \(food.title)")
+            Text("\(item.name) \(item.title)")
         }
     }
 }
 
 struct FoodItemView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuItemView(food: foods[0])
+        MenuItemView(item: foods[0])
             .previewLayout(.sizeThatFits)
     }
 }
