@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct FoodItemView: View {
+struct MenuItemView: View {
     
-    let food: Food
+    let food: MenuItem
     
     var body: some View {
         LabeledContent {
@@ -23,7 +23,7 @@ struct FoodItemView: View {
 
 struct FoodItemView_Previews: PreviewProvider {
     static var previews: some View {
-        FoodItemView(food: foods[0])
+        MenuItemView(food: foods[0])
             .previewLayout(.sizeThatFits)
     }
 }
