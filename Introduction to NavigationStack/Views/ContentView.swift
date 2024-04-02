@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var path = NavigationPath() // accepts any Hashable objects
+    
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             
             List {
                 Section("Foods") {
@@ -47,6 +49,18 @@ struct ContentView: View {
             }
             .navigationDestination(for: Dessert.self) { item in
                DessertDetailView(dessert: item)
+            }
+            .toolbar {
+                ToolbarItem(placement: .primaryAction) {
+                    Button("🪄 Surprise Me") {
+                        // create an array of hashable objects and add all foods, drinks, and desserts
+                        let items: [any Hashable] = foods + drinks + desserts
+                        // now we can choose a random object of any type to add to our nav path
+                        if let item = items.randomElement() {
+                            path.append(item)
+                        }
+                    }
+                }
             }
         }
     }
