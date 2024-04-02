@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Food: Identifiable {
+struct Food: Identifiable, Hashable {
     var id: String { "\(name)_\(title)" }
     let name: String
     let title: String
