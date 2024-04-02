@@ -12,7 +12,7 @@
 		E75159AA298D680A00CDEC3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75159A9298D680A00CDEC3E /* Assets.xcassets */; };
 		E75159AD298D680A00CDEC3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75159AC298D680A00CDEC3E /* Preview Assets.xcassets */; };
 		E784B5F2298D691B00558357 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = E784B5F1298D691B00558357 /* Food.swift */; };
-		E784B5F4298D6E2700558357 /* FoodItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E784B5F3298D6E2700558357 /* FoodItemView.swift */; };
+		E784B5F4298D6E2700558357 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E784B5F3298D6E2700558357 /* MenuItemView.swift */; };
 		E784B5F6298D6EC800558357 /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E784B5F5298D6EC800558357 /* FoodDetailView.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +23,7 @@
 		E75159A9298D680A00CDEC3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E75159AC298D680A00CDEC3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E784B5F1298D691B00558357 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
-		E784B5F3298D6E2700558357 /* FoodItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemView.swift; sourceTree = "<group>"; };
+		E784B5F3298D6E2700558357 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
 		E784B5F5298D6EC800558357 /* FoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +62,7 @@
 				E75159A9298D680A00CDEC3E /* Assets.xcassets */,
 				E75159AB298D680A00CDEC3E /* Preview Content */,
 				E784B5F1298D691B00558357 /* Food.swift */,
-				E784B5F3298D6E2700558357 /* FoodItemView.swift */,
+				E784B5F3298D6E2700558357 /* MenuItemView.swift */,
 				E784B5F5298D6EC800558357 /* FoodDetailView.swift */,
 			);
 			path = "Introduction to NavigationStack";
@@ -149,7 +149,7 @@
 				E75159A8298D680800CDEC3E /* ContentView.swift in Sources */,
 				E75159A6298D680800CDEC3E /* Introduction_to_NavigationStackApp.swift in Sources */,
 				E784B5F2298D691B00558357 /* Food.swift in Sources */,
-				E784B5F4298D6E2700558357 /* FoodItemView.swift in Sources */,
+				E784B5F4298D6E2700558357 /* MenuItemView.swift in Sources */,
 				E784B5F6298D6EC800558357 /* FoodDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
